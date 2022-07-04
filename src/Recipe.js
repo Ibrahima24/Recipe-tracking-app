@@ -2,7 +2,7 @@ import React from "react";
 
 function Recipe({ recipe, deleteRecipe }) {
     return (
-        <>
+        
             <tr>
                 <td className="content"><p>{recipe.name}</p></td>
                 <td className="content"><p>{recipe.cuisine}</p></td>
@@ -13,7 +13,7 @@ function Recipe({ recipe, deleteRecipe }) {
                     <button name="delete" onClick={deleteRecipe}>Delete</button>
                 </td>
             </tr>
-        </>
+        
     )
 }
 
